@@ -1,0 +1,23 @@
+{
+  "name": "xiyusullos/design-patern",
+  "description": "Some design patter implementations writing in PHP",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "xiyusullos",
+      "email": "i@xy-jit.cc"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "xiyusullos\\": "src/"
+    }
+  }
+}
